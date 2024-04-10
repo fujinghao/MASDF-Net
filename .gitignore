@@ -10,7 +10,7 @@ data/
 pretrained/
 snapshots/
 save/
-
+.idea/
 # Executables
 *.swf
 *.air

@@ -3,7 +3,7 @@ This repo holds the code of "MASDF-Net: A multi-attention codec network with sel
 
 
 
-## Model Overview
+## Framework Overview
 <p align="center">
     <img src="imgs/model.png"/> <br />
 </p>
@@ -29,11 +29,8 @@ GPUs of memory>=4G shall be sufficient for this experiment.
 Code of other tasks will be comming soon.
 
 
-## Reference
-Some of the codes in this repo are borrowed from:
-* [TransFuse](https://github.com/Rayicer/TransFuse)
-* [PVT](https://github.com/whai362/PVT)
-* [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT)
+## Acknowledgement
+We are very grateful for these excellent works [PVT](https://github.com/whai362/PVT), [Polyp-PVT](https://github.com/DengPingFan/Polyp-PVT), [CCNet](https://github.com/speedinghzl/CCNet),[TransFuse](https://github.com/Rayicer/TransFuse) and [PraNet](https://github.com/DengPingFan/PraNet), which have provided the basis for our framework.
 
 ## Questions
 Please drop an email to fujinghao@stu.scu.edu.cn
