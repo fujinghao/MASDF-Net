@@ -12,11 +12,11 @@ This repo holds the code of "MASDF-Net: A multi-attention codec network with sel
 
 ## Experiments
 
-### ISIC2017 Skin Lesion Segmentation Challenge
+### ISIC Skin Lesion Segmentation Challenge
 GPUs of memory>=4G shall be sufficient for this experiment. 
 
 1. Preparing necessary data:
-	+ downloading ISIC2017 training, validation and testing data from the [official site](https://challenge.isic-archive.com/data), put the unzipped data in `./data`.
+	+ downloading ISIC training, validation and testing data from the [official site](https://challenge.isic-archive.com/data), put the unzipped data in `./data`.
 	+ run `process.py` to preprocess all the data, which generates `data_{train, val, test}.npy` and `mask_{train, val, test}.npy`.
 
 2. Testing:
@@ -24,9 +24,6 @@ GPUs of memory>=4G shall be sufficient for this experiment.
 
 3. Training:
 	+ run `train_isic.py`; you may also want to change the default saving path or other hparams as well.
-
-
-Code of other tasks will be comming soon.
 
 
 ## Acknowledgement
